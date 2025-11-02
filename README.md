@@ -103,7 +103,7 @@ El sitio malicioso estará en: `http://localhost:5000`
 **SIN CERRAR LA SESIÓN**, abre una nueva pestaña:
 
 ```
-http://localhost:5000/index.html
+http://localhost:5000
 ```
 
 ### Paso 5: ¡Ataque ejecutado!
@@ -135,7 +135,7 @@ Status Code: 303
 Request Headers:
   Cookie: sessionId=... ← Cookie enviada automáticamente
   Origin: http://localhost:5000 ← ¡Viene del sitio malicioso!
-  Referer: http://localhost:5000/index.html
+  Referer: http://localhost:5000
 
 Form Data:
   email: hacker@hack.com
